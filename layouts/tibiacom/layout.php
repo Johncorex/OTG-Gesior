@@ -113,7 +113,7 @@ if(!defined('INITIALIZED'))
                     <div id="LeftArtwork">
                         <a href="./?subtopic=latestnews">
                             <img id="TibiaLogoArtworkTop"
-                                 src="<?php echo $layout_name; ?>/images/global/header/tibia-logo-artwork-top.gif"
+                                 src="<?php echo $layout_name; ?>/images/global/header/Logosite.png"
                                  alt="logoartwork"
                                  name="Tibia"
                             >
