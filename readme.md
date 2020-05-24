@@ -1,38 +1,25 @@
-## Gesior - AAC
+## OTG-Gesior - AAC
 
+* Esse site foi disponibilizado como site Official para ser utilizado no projeto OTG-Global, o mesmo receberá sempre atualizações e toda ajuda é bem vinda!
 ### Requirements:
 * [Apache](http://www.apache.org/) with [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) enabled + [PHP](http://php.net) Version 5.6 or newer
 
-### How to install:
-* Clone the Gesior-ACC From GitHub.
-* change the permission for write in /cache.
+### Como instalar:
+* Clone o Gesior-ACC no GitHub.
+git clone --recursive https://github.com/Johncorex/OTG-Gesior.git
+* altere a permissão para gravação no /cache.
 
 ```bash
-sudo chmod -R 777 /cache
+sudo chmod -R 777 /var/www/html/cache
 ```
 
 ### Tips and Tricks:
-* This website have some security implements, here you can use apache2 to apply them.
-* run these commands to maximize your security.
+* Este site possui alguns implementos de segurança, aqui você pode usar o apache2 para aplicá-los.
+* execute esses comandos para maximizar sua segurança.
 ````bash
 sudo a2enmod headers
 sudo a2enmod rewrite 
 ````
-* on ubuntu 16.06 or 14.04 go to apache folder and edit your config.
-* run:
-````bash
-sudo vim /etc/apache2/apache2.conf 
-````
-and search for something like this: 
-```markdown
-<Directory PATH_TO_YOUR_WEBSITE>
-        Options Indexes FollowSymLinks
-        AllowOverride All
-        Require all granted         
-</Directory>
-```
-
-* and add something like this /\
 
 ### PHP NEEDS THAT FOLLOWING
 ```bash
@@ -40,7 +27,7 @@ sudo apt-get install php5-gd
 sudo apt-get install php5-curl
 ```
 
-Make sure curl is enabled in the php.ini file. For me it's in /etc/php5/apache2/php.ini, if you can't find it, this line might be in /etc/php5/conf.d/curl.ini. Make sure the line :
+Verifique se o curl está ativado no arquivo php.ini. Para mim está em /etc/php5/apache2/php.ini, se você não conseguir encontrá-la, essa linha pode estar em /etc/php5/conf.d/curl.ini. Verifique se a linha:
 extension=curl.so
 
 now restart apache.:
@@ -53,7 +40,10 @@ sudo service apache2 restart
 ```
 
 ### FOR UBUNTU ACCOUNTING PROBLEMS
-If you have trouble registering using ubuntu or any other version of php where the site claims to have registered but was not done, simply run the following command on your database:
+Se você tiver problemas para se registrar usando o ubuntu ou qualquer outra versão do php em que o site alega ter se registrado, mas não foi feito, basta executar o seguinte comando no seu banco de dados:
 ```bash
 SET GLOBAL sql_mode = '';
 ```
+
+### CREDITS:
+Gesior, Marco Pires and OTG Team
