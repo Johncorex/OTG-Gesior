@@ -65,7 +65,7 @@ $news_content .= '
       			<div class="Border_3">
         			<div class="BoxContent" style="background-image:url('.$layout_name.'/images/global/content/scroll.gif);">
 						<div id="TeaserThumbnail">
-							<img src="'.$layout_name.'/images/news/announcement.gif" width="150" height="100" border="0" alt="">
+							<img src="'.$layout_name.'/images/news/featuredthumb_5435.jpg" width="150" height="100" border="0" alt="">
 						</div>
                     <div style="position: relative; top: -9px; margin-bottom: 10px;"><br>
 				 <font size="2px"></font><center><font size="2px"><b> IP:</b> otg-global.com |&nbsp;  <b>Port:</b> 7171 |&nbsp;  <b>Version:</b>12.31</font> <br> </a></center><br><font size="2px"><b>'.$config['server']['serverName'].'</b> - <a href="?subtopic=serverinfo" <b="">Server Info</a> - <small>(learn to do <b><a href="?subtopic=serverinfo&action=tutorialdonate" <b="">Donate</a></b> and use our <b><a href="?subtopic=serverinfo&action=tutorialshop" <b="">Shop Online</a></b>)</small> <br><br> Welcome to <b><font color="green">'.$config['server']['serverName'].'</font></b>, we count on map most complete of all servers currently, Cooldown and reworked Spells for a more dynamic and fun PvP.<br>Several bugs fixed and being fixed daily. Come check out the best server of all time! <br><a href="?subtopic=createaccount" <b="">Create your account now</a> here your fun is guaranteed!
