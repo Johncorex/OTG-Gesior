@@ -92,7 +92,7 @@ if(!defined('INITIALIZED'))
 </head>
 
 <body onbeforeunload="SaveMenu();"
-      style="background-image:url(<?php echo $layout_name; ?>/images/global/header/background-artwork.jpg);
+      style="background-image:url(<?php echo $layout_name; ?>/images/global/header/background-otg.jpg);
               background-size: 100%;
               background-position: top center;
               background-repeat: no-repeat;
