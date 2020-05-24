@@ -152,7 +152,7 @@ $config['site']['flash_client_enabled'] = false;
 
 # Create Character Options
 $config['site']['newchar_vocations'] = array(0 => 'Rook Sample');
-$config['site']['newchar_towns'] = array(1);
+$config['site']['newchar_towns'] = array(6);
 $config['site']['max_players_per_account'] = 7;
 
 # Emails Config
@@ -174,7 +174,7 @@ $config['site']['email_time_change'] = 7;
 $config['site']['daystodelete'] = 7;
 
 # PAGE: guilds.php
-$config['site']['guild_need_level'] = 150;
+$config['site']['guild_need_level'] = 1;
 $config['site']['guild_need_pacc'] = false;
 $config['site']['guild_image_size_kb'] = 50;
 $config['site']['guild_description_chars_limit'] = 2000;
@@ -182,7 +182,7 @@ $config['site']['guild_description_lines_limit'] = 6;
 $config['site']['guild_motd_chars_limit'] = 250;
 
 # PAGE: adminpanel.php
-$config['site']['access_admin_panel'] = 6;
+$config['site']['access_admin_panel'] = 99999;
 
 # PAGE: latestnews.php
 $config['site']['news_limit'] = 6;

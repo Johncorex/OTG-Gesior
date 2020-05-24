@@ -7,7 +7,7 @@ if(!defined('INITIALIZED'))
 <head>
     <meta charset="utf-8">
     <title>Tibia - Free Multiplayer Online Role Playing Game</title>
-    <meta name="author" content="Marco Oliveira">
+    <meta name="author" content="Marco Oliveira and Johncore">
     <meta http-equiv="content-language" content="pt-br">
     <meta name="keywords" content="free online game, free multiplayer game, free online rpg, free mmorpg, mmorpg, mmog, online role playing game, online multiplayer game, internet game, online rpg, rpg">
 	<meta name="description" content="Tibia is a free massively multiplayer online role-playing game (MMORPG). Join this fascinating game that has thousands of fans from all over the world! - https://127.0.0.1" />
@@ -777,8 +777,8 @@ if(!defined('INITIALIZED'))
 	<!--<script id="float_discord" src="<?php echo $layout_name; ?>/js/discord/discord_float_plugin.js" data-id="<?php echo $config['social']['discord']; ?>" async></script>-->
 	
     <!-- Facebook -->
-    <script id="float_fb" src="<?php echo $layout_name; ?>/js/facebook/fb_float_plugin.js" data-href="<?php echo $config['social']['facebook']; ?>" async></script> ﻿
-	
+    <!--<script id="float_fb" src="<?php echo $layout_name; ?>/js/facebook/fb_float_plugin.js" data-href="<?php echo $config['social']['facebook']; ?>" async></script> ﻿
+	-->
 	<!-- PageUp -->
     <script>
         $(document).ready(function(){
