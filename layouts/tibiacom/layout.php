@@ -709,7 +709,9 @@ if(!defined('INITIALIZED'))
 
                             <div id="Footer">
                                 Copyright by <a href="https://www.cipsoft.com" target="_new"><b>CipSoft GmbH</b></a>. All rights reserveds<br>
-                                <a href=?subtopic=forum><b>Game Forum</b></a> | <a href=<?php echo $config['social']['facebook']; ?>><b>Facebook</b></a> | <a href=?subtopic=team><b>Support Game</b></a><br>
+                                <!-- Banner TS -->
+								<center> <img src="https://i.postimg.cc/8CCf0jMf/Whats-App-Image-2020-05-25-at-01-53-06.jpg" width="316" height="117" />
+                                    <br>
                             </div>
                         </div>
                     </div>
