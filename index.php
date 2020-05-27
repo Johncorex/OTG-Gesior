@@ -1,4 +1,6 @@
 <?php
+// anti sql inject by Johncore
+include "antisql.php";
 // comment to show E_NOTICE [undefinied variable etc.], comment if you want make script and see all errors
 error_reporting(E_ALL ^ E_STRICT ^ E_NOTICE);
 
