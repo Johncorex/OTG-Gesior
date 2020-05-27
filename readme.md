@@ -23,8 +23,8 @@ sudo a2enmod rewrite
 
 ### PHP NEEDS THAT FOLLOWING
 ```bash
-sudo apt-get install php5-gd
-sudo apt-get install php5-curl
+sudo apt-get install php-gd
+sudo apt-get install php-curl
 ```
 
 Verifique se o curl está ativado no arquivo php.ini. Para mim está em /etc/php5/apache2/php.ini, se você não conseguir encontrá-la, essa linha pode estar em /etc/php5/conf.d/curl.ini. Verifique se a linha:
