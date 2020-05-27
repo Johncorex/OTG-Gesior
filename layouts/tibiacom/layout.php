@@ -685,13 +685,13 @@ if(!defined('INITIALIZED'))
 										<div id="supportButton" class="Themebox"
 										style="height: 70px; margin-bottom: 0px; background-image:url(<?php echo $layout_name; ?>/images/global/themeboxes/ticket/support.png);"></div>
 									</a>
-                                    
+									
 									<!-- Parceiro Rede Social Tibiana -->
 									<a href="https://tibiasocial.online/">
 										<div id="supportButton" class="Themebox"
 										style="height: 70px; margin-bottom: 0px; background-image:url(<?php echo $layout_name; ?>/images/global/themeboxes/parceiros/redesocial.png);"></div>
 									</a>
-									
+                                    
 									<!-- current poll theme box -->
                                         <?php
                                         $date = time();
@@ -716,8 +716,8 @@ if(!defined('INITIALIZED'))
                             <div id="Footer">
                                 Copyright by <a href="https://www.cipsoft.com" target="_new"><b>CipSoft GmbH</b></a>. All rights reserveds<br>
                                 <!-- Banner TS -->
-								<center> <img src="https://i.postimg.cc/8CCf0jMf/Whats-App-Image-2020-05-25-at-01-53-06.jpg" width="316" height="117" />
-                                    <br>
+								<center> <a href="https://tibiaking.com/"><img src="/layouts/tibiacom/images/global/themeboxes/parceiros/tklogo.png" width="316" height="117" /></a>
+								<br>
                             </div>
                         </div>
                     </div>
