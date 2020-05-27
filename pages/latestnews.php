@@ -175,7 +175,7 @@ function showPost($topic, $text, $smile)
 }
 //End Functions
 
-/*Most Powerfull Guilds
+///Most Powerfull Guilds
 	$main_content .= '
 <div class="InnerTableContainer">
 					<div class="TableShadowContainerRightTop">
@@ -230,7 +230,7 @@ function showPost($topic, $text, $smile)
 		</table>
 	</div>
 <br />';
-//Most Powerfull Guilds End*/
+///Most Powerfull Guilds End/
 
 //Here start news
 	$last_threads = filter_var($last_threads, FILTER_SANITIZE_STRING);
