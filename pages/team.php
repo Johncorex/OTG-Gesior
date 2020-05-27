@@ -9,8 +9,8 @@ $main_content .= "
 <table border=0 cellpadding=4 cellspacing=1 width=100%>
 <tr><td class=\"white\" align=\"center\" bgcolor=\"#505050\"><b>Contact Information</b></td></tr>
 <tr><td bgcolor=\"#D4C0A1\"><table border=\"0\" cellpadding=\"8\">
-<TR><TD>Company Website:</TD><TD>127.0.0.1</A></TD></TR>
-<TR><TD>Managing Director:</TD><TD>Marco Oliveira</TD></TR>
+<TR><TD>Company Website:</TD><TD>OTG Corporation</A></TD></TR>
+<TR><TD>Managing Director:</TD><TD>Johncore</TD></TR>
 </td></tr></table></td></tr>";
 
 $main_content .= "<table border=0 cellpadding=4 cellspacing=1 width=100%>
