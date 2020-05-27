@@ -686,6 +686,12 @@ if(!defined('INITIALIZED'))
 										style="height: 70px; margin-bottom: 0px; background-image:url(<?php echo $layout_name; ?>/images/global/themeboxes/ticket/support.png);"></div>
 									</a>
                                     
+									<!-- Parceiro Rede Social Tibiana -->
+									<a href="https://tibiasocial.online/">
+										<div id="supportButton" class="Themebox"
+										style="height: 70px; margin-bottom: 0px; background-image:url(<?php echo $layout_name; ?>/images/global/themeboxes/parceiros/redesocial.png);"></div>
+									</a>
+									
 									<!-- current poll theme box -->
                                         <?php
                                         $date = time();
