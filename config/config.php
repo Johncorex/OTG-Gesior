@@ -57,41 +57,6 @@ $loyalty_title = array(
 ');
 $config['shop']['newitemdays'] = 1;
 
-# Configure your active payment method with this
-$config['paymentsMethods'] = [
-    'pagseguro' => true,
-    'paypal' => false,
-    'transfer' => false
-];
-
-# Pagseguro configs
-$config['pagseguro']['testing'] = true;
-$config['pagseguro']['lightbox'] = true;
-$config['pagseguro']['tokentest'] = "";
-
-$config['pagseguro']['email'] = "";
-$config['pagseguro']['token'] = "";
-$config['pagseguro']['produtoNome'] = 'Tibia Coins';
-$config['pagseguro']['urlRedirect'] =  $config['base_url'];
-$config['pagseguro']['urlNotification'] = $config['base_url'].'retpagseguro.php';
-$config['donate']['offers'] = [
-    500=>50,
-    800=>125,
-    1500=>250,
-    2800=>500,
-    4900=>1000
-];
-
-# Bank transfer data
-$config['banktransfer']['bank'] = "Caixa Econômica";
-$config['banktransfer']['agency'] = "";
-$config['banktransfer']['account'] = "";
-$config['banktransfer']['name'] = "";
-$config['banktransfer']['operation'] = 003;
-
-# PayPal configs
-$config['paypal']['email'] = "";
-
 # Social Networks
 $config['social']['facebook'] = "https://www.facebook.com/tibia";
 $config['social']['discord'] = "";
@@ -191,10 +156,10 @@ $config['site']['news_limit'] = 6;
 $config['site']['last_deaths_limit'] = 40;
 
 # PAGE: team.php
-$config['site']['groups_support'] = array(2, 3, 4, 5);
+$config['site']['groups_support'] = array(2, 3, 4, 5, 6);
 
 # PAGE: highscores.php
-$config['site']['groups_hidden'] = array(3, 4, 5);
+$config['site']['groups_hidden'] = array(3, 4, 5, 6);
 $config['site']['accounts_hidden'] = array(1);
 
 # PAGE: lostaccount.php
@@ -205,3 +170,61 @@ $config['site']['layout'] = 'tibiacom';
 $config['site']['vdarkborder'] = '#505050';
 $config['site']['darkborder'] = '#D4C0A1';
 $config['site']['lightborder'] = '#F1E0C6';
+
+############################
+## PagSeguro/Paypal Email ##
+############################
+$config['pagseguro']['email'] = 'johncore@hotmail.com'; ## EMAIL PAGSEGURO ##
+$config['paypal']['email'] = 'johncore@hotmail.com'; ## EMAIL PAYPAL ##
+
+## Formas de pagamento [1 = ativo | 0 = inativo] ##
+$config['site']['pagseguro'] = 1;
+$config['site']['paypal'] = 1;
+$config['site']['caixa'] = 1;
+$config['site']['picpay'] = 1;
+$config['site']['santander'] = 0;
+$config['site']['nubank'] = 0;
+$config['site']['mercadopago'] = 0;
+
+#####################
+## Nome do Produto ##
+#####################
+$config['pagseguro']['produtoNome'] = 'Tibia Coins';
+
+#####################
+## PICPAY ##
+#####################
+
+$config['site']['nomepicpay'] = '@johncore';
+$config['site']['linkqr'] = '<p style="text-align: center;"><img src="https://imgur.com/2rP2Os6.png" alt="" width="158" height="158" /></p></p>';
+
+#############################
+######### C A I X A ########
+#############################
+#! Informações do pagamento com caixa economica federal !#
+$config['site']['CaixaCont'] = "
+Conta Poupanca 013: 00000000-0
+Ag: 0000
+Favorecido: Johncore Otgeriano   
+
+"; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
